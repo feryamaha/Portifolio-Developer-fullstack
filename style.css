@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: #302e2e;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +24,8 @@ header {
 }
 
 #log-contact {
-    width: 20px;
+
+    width: 40px;
     cursor: pointer;
 }
 
@@ -178,6 +179,8 @@ a {
     /*max-width: 600px;*/
     top: -5%;
     margin-bottom: 1%;
+    text-align: center;
+    justify-content: center;
     /*margin-left: 20%;*/
 }
 
@@ -188,6 +191,7 @@ a {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    text-align: center;
 }
 
 .scroller[data-animated="true"] {
